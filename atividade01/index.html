@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Organização Atividade 01</title>
+    <meta name="description" content="Organização sem fins lucrativos — inciativa social, contato e ações.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="projetos.html">Projetos Sociais</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <article>
+            <h1>Sobre a Organização</h1>
+            <p>Somos uma ONG dedicada a apoiar comunidades locais por meio de projetos de voluntariado e campanhas de
+                doação.</p>
+
+
+            <section aria-labelledby="contato">
+                <h2 id="contato">Informações de Contato</h2>
+                <address>
+                    Rua das Atividades, 404 — São Paulo, SP<br>
+                    Telefone: <a href="tel:+551112345678">(11) 1234-5678</a><br>
+                    E-mail: <a href="mailto:contato@atividades.org">contato@atividades.org</a>
+                </address>
+            </section>
+        </article>
+    </main>
+
+
+    <footer>
+        <p>&copy; <span id="ano"></span> Organização Atividade 01 — Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script>
+        document.getElementById('ano').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
